@@ -22,20 +22,20 @@
 <body id="home">
 
   <!-- navbar -->
-  <div class="nav-container">
+  <!-- <div class="nav-container">
     <div class="nav-logo">
       <a href="">
         <h2>Portfolio</h2>
       </a>
     </div>
-    <div class="nav-list-box">
+    <div class="nav-list-box bg-dark">
       <ul class="nav-list">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skill">Skill</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
       </ul>
-      <div class="nav-close">
+      <div class="">
         <i class="fas fa-fw fa-times"></i>
       </div>
     </div>
@@ -44,24 +44,51 @@
     </div>
   </div>
   <!-- end of navbar -->
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+    <a class="navbar-brand" href="#"><span class="title-logo text-poppins">Maul<b>Stuff</b></span></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse col-lg-7" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link js-scroll-trigger" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skill">Skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  </nav>
   <!-- header -->
   <section class="header">
     <div class="header-content">
       <div class="row">
         <div class="col-md-5 my-auto mx-auto">
           <div class="header-text">
-            <h5 class="m-0 font-weight-light">Hi, I am <b class="font-weight-bold">Maulana Akbar Kusuma</b></h5>
-            <h2>I'm a UI/UX Designer and <br>a Network Engineer</h2>
-            <p class="d-block font-weight-light text-body">
+            <h5 class="m-0 font-weight-light text-poppins">Hi, I am <b class="font-weight-bold text-poppins">Maulana Akbar Kusuma</b></h5>
+            <h2 class="text-poppins">I'm a <span class="element"></span> and 
+              <br class="text-poppins">a Network Engineer</h2>
+            <p class="d-block font-weight-light text-body text-poppins">
               Want to know about me? Let's check this out!
             </p>
           </div>
         </div>
         <div class="col-md-6 my-auto mx-auto" data-aos="zoom-in">
           <div class="d-flex justify-content-center align-items-center text-center">
-            <div class="img-box my-3">
-              <img src="assets/img/man.png" alt="" class="img-custom">
+            <div class="img-custom my-3">
+              <img src="assets/img/Frame 5.png" alt="" class="img-custom">
             </div>
           </div>
           <hr>
@@ -85,19 +112,19 @@
       <div class="row my-3">
         <div class="col-md-4 my-auto mx-auto" data-aos="zoom-in">
           <div class="d-flex justify-content-center align-items-center flex-column">
-            <div class="img-box">
-              <img src="assets/img/man.png" alt="" class="img-custom">
+            <div class="wrapper-card">
+              <img src="assets/img/Frame 5.png" alt="" class="img-profil-460">
+              <div class="square"></div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 my-auto mx-auto" data-aos="fade-left">
-          <h3 class="mt-3 m-0">Maulana Akbar Kusuma</h3>
-          <small class="d-block font-weight-light text-body">UI/UX Designer and Network Engineer</small>
-          <p class="d-block my-3 font-weight-light text-body mb-4">
+        <div class="col-md-5 my-auto mx-auto" data-aos="fade-left">
+          <h3 class="mt-3 m-0 text-poppins font-weight-bold">Maulana Akbar Kusuma</h3>
+          <small class="d-block font-weight-light text-body text-poppins">UI/UX Designer and Network Engineer</small>
+          <p class="d-block my-3 font-weight-light text-body mb-4 text-poppins">
             Hello, I am usually called Akbar with my friends because it comes from middle name.
-
-Which is beside me, I was born in Bandung on 28 Januari 2000.
-I really like graphic design, Networking, travelling and also editing world.
+            Which is beside me, I was born in Bandung on 28 Januari 2000.
+            I really like graphic design, Networking, travelling and also editing world.
           </p>
           <!--- <a href="#" class="button button-black mr-1">Learn More <i class="fas fa-fw fa-arrow-right ml-1"></i></a> --->
           <a href="https://drive.google.com/file/d/1THuwYQVVjdILqrc5Gg5z00ooe6dr1Abr/view?usp=sharing" class="button button-thin-border">Download CV</a>
@@ -121,49 +148,49 @@ I really like graphic design, Networking, travelling and also editing world.
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">FIGMA</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">Illustrator</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">HTML</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 35%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">PHP</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">MySQL</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">System Operation</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">Networking</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-md-5 my-2 mx-auto">
           <span class="d-block font-weight-light text-body mb-1 text-poppins">CodeIgniter</span>
           <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 15%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
       </div>
@@ -261,25 +288,24 @@ I really like graphic design, Networking, travelling and also editing world.
         </div> -->
       </div>
     </div>
+    <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top float-right " data-aos="zoom-in" role="button"><i class="fas fa-chevron-up"></i></a>
   </section>
   <!-- end of portfolio -->
 
   <!-- footer -->
-  <section class="footer">
+  <!-- <section class="footer">
     <div class="footer-content">
       <div class="row">
         <!--<div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
           <h3 class="text-light text-poppins font-weight-bold">Portfolio</h3>
           <span class="d-block font-weight-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptatum non optio recusandae temporibus est voluptatem consectetur labore minus repellendus repellat officiis ducimus, quasi aliquam maxime.</span>
         </div>-->
-        <div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
+        <!--<div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
           <h4 class="text-light text-poppins font-weight-bold">Useful Links</h4>
           <div class="d-flex flex-column">
             <a href="#home" class="text-light font-weight-light">Home</a>
             <a href="#about" class="text-light font-weight-light">About Us</a>
-            <a href="#service" class="text-light font-weight-light">Our Services</a>
-            <a href="#" class="text-light font-weight-light">Terms of Services</a>
-            <a href="#" class="text-light font-weight-light">Privacy Policy</a>
+            <a href="#skill" class="text-light font-weight-light">Our Services</a>
           </div>
         </div>
         <div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
@@ -301,7 +327,7 @@ I really like graphic design, Networking, travelling and also editing world.
           <h4 class="text-light text-poppins font-weight-bold">Lorem Ipsum</h4>
           <span class="d-block font-weight-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, assumenda, sit! Explicabo aspernatur voluptate necessitatibus facilis.</span>
         </div> --->
-      </div>
+      <!--</div>
       <div class="row mt-5">
         <div class="d-flex justify-content-center align-items-center text-center flex-column mx-auto">
           <span class="d-block text-light">© Copyright <strong>Portfolio</strong>. All Right Reserved</span>
@@ -311,7 +337,51 @@ I really like graphic design, Networking, travelling and also editing world.
     </div>
   </section>
   <!-- end of footer -->
+  <!-- Footer -->
+  
+<footer class="bg-dark text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
+        <h4 class="text-light text-poppins font-weight-bold">Useful Links</h4>
+        <div class="d-flex flex-column">
+          <a href="#home" class="text-light font-weight-light">Home</a>
+          <a href="#about" class="text-light font-weight-light">About Us</a>
+          <a href="#skill" class="text-light font-weight-light">Our Services</a>
+        </div>
+      </div>
+      <div class="col-md-5 my-3 mx-auto" data-aos="fade-in">
+        <h4 class="text-light text-poppins font-weight-bold">Contact Me</h4>
+        <div class="d-flex flex-column">
+          <span class="d-block font-weight-light text-light">Sayati, Margahayu</span>
+          <span class="d-block font-weight-light text-light">Bandung, 40228</span>
+          <span class="d-block font-weight-light text-light">Indonesia</span>
+          <span class="d-block mt-3 font-weight-light text-light"><b class="font-weight-bold">Phone : </b>+628987494998</span>
+          <span class="d-block mb-3 font-weight-light text-light"><b class="font-weight-bold">email : </b>maulrtf1@gmail.com</span>
+          <div class="footer-icon-box">
+            <a href="https://www.facebook.com/maulstuff"><i class="fab fa-fw fa-facebook-f text-light mr-1"></i></a>
+            <a href="https://instagram.com/maulstuff"><i class="fab fa-fw fa-instagram text-light mr-1"></i></a>
+            <a href="https://github.com/maulstuff"><i class="fab fa-fw fa-github text-light"></i></a>
+          </div>
+        </div>
+      </div>
 
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
   <!-- javascript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -320,6 +390,7 @@ I really like graphic design, Networking, travelling and also editing world.
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
   <script src="assets/js/script.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
 </body>
 </html>

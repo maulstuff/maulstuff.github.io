@@ -330,4 +330,11 @@ html {
   .header .header-content {
     margin: 100px 0;
   }
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+  }
+
 }
